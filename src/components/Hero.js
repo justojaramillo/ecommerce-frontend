@@ -40,7 +40,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className='container h-fit max-h-fit pt-6 lg:pt-0'>
+      <div className='container pt-6 lg:pt-0'>
         <Slider {...settings}>
           {slideData.map((item) => {
             return (
