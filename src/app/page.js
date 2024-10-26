@@ -4,10 +4,10 @@ import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Hero />
       <NewProduts />
       <Testimonial />
-    </div>
+    </main>
   );
 }
